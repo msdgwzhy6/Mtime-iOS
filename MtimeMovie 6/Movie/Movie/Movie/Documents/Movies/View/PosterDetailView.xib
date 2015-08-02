@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PosterDetailView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中文名：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3RW-mo-XXS">
+                    <rect key="frame" x="157" y="90" width="76" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="原名：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGq-yk-03L">
+                    <rect key="frame" x="157" y="143" width="155" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="155" id="vgx-Zm-waF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年份" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q54-h0-G7e">
+                    <rect key="frame" x="157" y="191" width="76" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JVy-pl-MOC" customClass="StarView">
+                    <rect key="frame" x="23" y="320" width="80" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Jhc-t4-nUE"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klW-4v-f5D">
+                    <rect key="frame" x="271" y="320" width="29" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="lau-XZ-ZZ3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aah-IT-DUn">
+                    <rect key="frame" x="15" y="80" width="130" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="PRu-r7-dcp"/>
+                        <constraint firstAttribute="width" constant="130" id="SSh-af-lBP"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="q54-h0-G7e" firstAttribute="leading" secondItem="3RW-mo-XXS" secondAttribute="leading" id="6B4-PT-VF2"/>
+                <constraint firstAttribute="trailing" secondItem="klW-4v-f5D" secondAttribute="trailing" constant="20" id="AwX-yF-ZcB"/>
+                <constraint firstAttribute="trailing" secondItem="JVy-pl-MOC" secondAttribute="trailing" constant="217" id="D6X-gb-W6V"/>
+                <constraint firstItem="3RW-mo-XXS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="90" id="Mfw-e7-axz"/>
+                <constraint firstItem="aah-IT-DUn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="OTV-1l-MRM"/>
+                <constraint firstItem="aah-IT-DUn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="PL0-nz-pYu"/>
+                <constraint firstItem="q54-h0-G7e" firstAttribute="trailing" secondItem="3RW-mo-XXS" secondAttribute="trailing" id="Smb-cg-bAS"/>
+                <constraint firstItem="klW-4v-f5D" firstAttribute="top" secondItem="JVy-pl-MOC" secondAttribute="top" id="UNh-ba-jcH"/>
+                <constraint firstItem="JVy-pl-MOC" firstAttribute="top" secondItem="aah-IT-DUn" secondAttribute="bottom" constant="40" id="Vxh-u0-8Ni"/>
+                <constraint firstItem="rGq-yk-03L" firstAttribute="top" secondItem="3RW-mo-XXS" secondAttribute="bottom" constant="30" id="dmg-e0-OfS"/>
+                <constraint firstItem="q54-h0-G7e" firstAttribute="top" secondItem="rGq-yk-03L" secondAttribute="bottom" constant="25" id="gsV-wq-y81"/>
+                <constraint firstItem="JVy-pl-MOC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="23" id="lEd-im-Tfe"/>
+                <constraint firstItem="rGq-yk-03L" firstAttribute="leading" secondItem="3RW-mo-XXS" secondAttribute="leading" id="pU2-hU-RCu"/>
+                <constraint firstItem="q54-h0-G7e" firstAttribute="leading" secondItem="aah-IT-DUn" secondAttribute="trailing" constant="12" id="sCE-08-PKO"/>
+            </constraints>
+            <connections>
+                <outlet property="averageLabel" destination="klW-4v-f5D" id="DMm-7I-SmF"/>
+                <outlet property="englishTitleLabel" destination="rGq-yk-03L" id="a8R-jW-8hI"/>
+                <outlet property="movieImageView" destination="aah-IT-DUn" id="GCD-Bd-Hpp"/>
+                <outlet property="starView" destination="JVy-pl-MOC" id="yfw-Fr-d8p"/>
+                <outlet property="titleLabel" destination="3RW-mo-XXS" id="OW5-hD-43i"/>
+                <outlet property="yearLabel" destination="q54-h0-G7e" id="irI-Au-7Kj"/>
+            </connections>
+            <point key="canvasLocation" x="397" y="223"/>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
