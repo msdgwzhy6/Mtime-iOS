@@ -45,16 +45,3 @@ tableView的新闻展示界面，同时下拉，透视图会放大，点击小�
 ![](https://github.com/nongchaozhe/Mtime-iOS/raw/master/screenshots/pic13.png)  <br>
 ***
 如有错误请指出，仅供初学者学习用~ <br>
-
-
-
-
-
-
-
-
-``` 
-    //指定刷新某一组，效率高
-    NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:index];
-    [_tableViewFriends reloadSections:indexSet withRowAnimation:UITableViewRowAnimationFade];
-```
