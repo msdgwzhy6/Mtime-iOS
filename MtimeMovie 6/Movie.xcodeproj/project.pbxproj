@@ -90,7 +90,6 @@
 		2FC852691B5F42D400340614 /* NewsImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC852681B5F42D400340614 /* NewsImageViewController.m */; };
 		2FC8526C1B5F44CD00340614 /* NewsImageModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8526B1B5F44CD00340614 /* NewsImageModal.m */; };
 		2FC852701B5F4A6500340614 /* NewsImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8526E1B5F4A6500340614 /* NewsImageCell.m */; };
-		2FC8D8BE1B5DD5AC00FBDE1B /* 项目大纲.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 2FC8D8BD1B5DD5AC00FBDE1B /* 项目大纲.rtfd */; };
 		2FC8D8C11B5DE07300FBDE1B /* StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8D8C01B5DE07300FBDE1B /* StarView.m */; };
 		2FC8D8C51B5DF53900FBDE1B /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC8D8C31B5DF53900FBDE1B /* NewsCell.m */; };
 		2FC8D8C61B5DF53900FBDE1B /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC8D8C41B5DF53900FBDE1B /* NewsCell.xib */; };
@@ -387,7 +386,6 @@
 		2FC8526B1B5F44CD00340614 /* NewsImageModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsImageModal.m; sourceTree = "<group>"; };
 		2FC8526D1B5F4A6500340614 /* NewsImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsImageCell.h; sourceTree = "<group>"; };
 		2FC8526E1B5F4A6500340614 /* NewsImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsImageCell.m; sourceTree = "<group>"; };
-		2FC8D8BD1B5DD5AC00FBDE1B /* 项目大纲.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = "项目大纲.rtfd"; sourceTree = "<group>"; };
 		2FC8D8BF1B5DE07300FBDE1B /* StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarView.h; sourceTree = "<group>"; };
 		2FC8D8C01B5DE07300FBDE1B /* StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarView.m; sourceTree = "<group>"; };
 		2FC8D8C21B5DF53900FBDE1B /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
@@ -1378,7 +1376,6 @@
 		2FD8D5241B5CEA45002541FD /* common */ = {
 			isa = PBXGroup;
 			children = (
-				2FC8D8BD1B5DD5AC00FBDE1B /* 项目大纲.rtfd */,
 				2FC852631B5F373E00340614 /* UIViewExt */,
 				2FD8D4F21B5CDFB6002541FD /* SDWebImage */,
 				2FD8D5251B5CEA58002541FD /* Header.h */,
@@ -1665,7 +1662,6 @@
 				2FCAAA581B58A38C00DD59F6 /* volume@2x.png in Resources */,
 				2F9CEE781B5FB8BD00B96EA2 /* more_info_on@2x.png in Resources */,
 				2FCAAA901B58A38C00DD59F6 /* msg_new.png in Resources */,
-				2FC8D8BE1B5DD5AC00FBDE1B /* 项目大纲.rtfd in Resources */,
 				2FCAAA961B58A38C00DD59F6 /* sctpxw.png in Resources */,
 				2FCAAAC31B58A38C00DD59F6 /* indexBG_home@2x.png in Resources */,
 				2FD4CA071B6619A9000CA6DD /* 26@2x.png in Resources */,
